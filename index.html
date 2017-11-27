@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Welcome to my resume! I'm panzer</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/components.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body id="body">
+		<div id="vue" >
+			<div id="nav" >
+				<navbox  v-for="item in nav" :cla="item.className" :desc="item.description" :jumps="jump" :items="item" :titles="item.title"></navbox>
+			</div>
+			<lunbo></lunbo>
+			<about></about>
+			<resume></resume>
+			<works></works>
+			<!--<contact></contact>-->
+			<div id="contact" class="contact">
+				<div class="box">
+					<p class="title">联系方式：</p>
+					<div class="content">
+						<h3>Email:</h3>
+						<p>rumplepz@gmail.com</p>
+						<p>719798590@qq.com</p>
+						<h3>联系电话：</h3>
+						<p>132-3256-0820</p>
+						<h3>社交：</h3>
+						<p>QQ：719798590</p>
+						
+					</div>
+				</div>
+			</div>
+		</div >
+	</body>
+</html>

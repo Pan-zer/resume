@@ -53,7 +53,7 @@ Vue.component("resume",{
 					<div class="jq">jq</div>
 					<div class="Vue.js">Vue.js</div>
 					<div class="SSH">SSH</div>
-					<div class="SVM">SVM</div>
+					<div class="SSM">SVM</div>
 			</div>
 		
 			<div class="contact">
@@ -128,7 +128,19 @@ Vue.component("works",{
 Vue.component("contact",{
 	template:
 	`<div id="contact" class="contact">
-		<h1>i'm contact</h1>
+		<div class="box">
+			<p class="title">联系方式：</p>
+			<div class="content">
+				<h3>Email:</h3>
+				<p>rumplepz@gmail.com</p>
+				<p>719798590@qq.com</p>
+				<h3>联系电话：</h3>
+				<p>132-3256-0820</p>
+				<h3>社交：</h3>
+				<p>QQ：719798590</p>
+				
+			</div>
+		</div>
 	</div>`
 	
 });

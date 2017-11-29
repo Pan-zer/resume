@@ -83,8 +83,8 @@ Vue.component("resume",{
 					  </div>
 					</div>
 					<div class="progress">
-					  <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
-					    78%
+					  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+					    70%
 					  </div>
 					</div>
 			</div>
